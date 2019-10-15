@@ -1,22 +1,85 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  flex: 1;
   display: flex;
-  flex-direction: column;
+  min-height: 100vh;
+  text-align: center;
+  background-color: #e9ebee;
+}
+
+.choice-card {
+  flex: 1;
+  display: flex;
+  margin: 25px;
+  font-size: 3em;
+  padding: 0 40px;
+  font-weight: 300;
+  text-align: center;
+  border-radius: 25px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: column;
+  background-color: white;
+  justify-content: space-around;
+  border: 10px solid yellow;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+img {
+  width: 405px;
+  height: 305px;
+}
+
+h1 {
+  font-size: 50px;
+} 
+
+.winner {
+  color: green;
+  border: 10px solid green;
+}
+
+.loser {
+  color: red;
+  border: 10px solid red;
+}
+
+button {
+  margin: 15px;
+}
+
+ul {
+  list-style: none;
+}
+
+.black {
+  border: 10px solid black; 
+}
+
+.button-div button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white; 
+  color: black; 
+  border: 2px solid #f44336;
+}
+.button-div button:hover {
+  background-color: #f44336;
   color: white;
 }
+.button-div {
+  padding-left: 13rem;
+}
 
-.App-link {
-  color: #09d3ac;
+h3 {
+  display: flex;
 }
